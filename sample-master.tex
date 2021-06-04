@@ -90,7 +90,7 @@
 % 论文的答辩日期，需设置年、月、日。
 \defenddate{2021年05月25日}
 % 论文的定稿日期，需设置年、月、日。此属性可选，默认值为最后一次编译时的日期，精确到日。
-\date{2013年05月30日}
+\date{2021年05月30日}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 设置论文的英文封面
@@ -111,7 +111,7 @@
 % 格式，即``Month day, year''，其中``Month''为月份的英文名全称，首字母大写；``day''为
 % 该月中日期的阿拉伯数字表示；``year''为年份的四位阿拉伯数字表示。此属性可选，默认值为最后
 % 一次编译时的日期。
-\englishdate{May 1, 2021}
+\englishdate{May 30, 2021}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 设置论文的中文摘要
@@ -653,11 +653,11 @@ master会将URL根据一定的策略分发到各个worker节点；worker节点�
 分布式爬虫模型能够将任务的生成和数据的抓取两个过程分开，master节点负责任务的分发和数据的收集工作，worker节点负责数据的抓取，能够通过水平
 扩展worker节点的数量来提高爬虫的吞吐量，提高系统的可用性。但大部分的分布式爬虫都仅仅是维护一个全局URL队列，通过该队列来调度各个worker节点的
 爬取任务，并没有对爬虫各个组件分别管理，没有充分利用分布式系统的特性，只是简单的爬虫实例的堆叠，无法充分利用各节点的资源。
-% \begin{figure}[htbp]
-% \centering
-% \includegraphics[width= 0.98\textwidth]{distributed.png}
-% \caption{分布式爬虫模型}\label{fig:distributed}
-% \end{figure}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width= 0.98\textwidth]{pic/distributed.png}
+\caption{分布式爬虫模型}\label{fig:distributed}
+\end{figure}
 
 
 

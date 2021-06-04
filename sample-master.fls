@@ -469,6 +469,7 @@ INPUT pic/anti-strategy.png
 INPUT pic/reactive-streams.png
 INPUT pic/thread_pool.png
 INPUT pic/model.png
+INPUT pic/distributed.png
 INPUT pic/reactive-crawler.png
 INPUT pic/Htree.png
 INPUT pic/mapper.png
